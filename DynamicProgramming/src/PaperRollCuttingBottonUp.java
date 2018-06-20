@@ -56,7 +56,8 @@ public class PaperRollCuttingBottonUp {
 
         printArrays();
 
-        //we do not cut for length of 4 so i am not printing this.
+        //we do not cut for length of 4 so i am not printing this. Note; I lost some marks(2) for not printing length of 4..
+        //My misunderstanding of requirment.
         if (rollLength != 4) {
 
             System.out.println("The optimal price for length " + rollLength + " price " + rollCut(rollLength));
